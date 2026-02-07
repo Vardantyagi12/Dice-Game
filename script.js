@@ -28,7 +28,7 @@ function diceNum1() {
     //     dice1.src = imag6
     // }
     console.log(randomNum);
-    dice1.src="./images/dice"+randomNum+".png"
+    dice1.src=".dice"+randomNum+".png"
 }
 //Second Dice Function
 function diceNum2() {
@@ -51,8 +51,9 @@ function diceNum2() {
     //     dice2.src = imag6
     // }
     console.log(randomNum);
-    dice2.src="./images/dice"+randomNum+".png"
+    dice2.src=".dice"+randomNum+".png"
 }
 diceNum1()
 diceNum2()
+
 
