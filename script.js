@@ -1,12 +1,12 @@
 const dice1 = document.querySelector('.img1');
 const dice2 = document.querySelector('.img2');
 const dice = document.querySelector('.dice');
-const imag1 = "./images/dice1.png"
-const imag2 = "./images/dice2.png"
-const imag3 = "./images/dice3.png"
-const imag4 = "./images/dice4.png"
-const imag5 = "./images/dice5.png"
-const imag6 = "./images/dice6.png"
+const imag1 = ".dice1.png"
+const imag2 = ".dice2.png"
+const imag3 = ".dice3.png"
+const imag4 = ".dice4.png"
+const imag5 = ".dice5.png"
+const imag6 = ".dice6.png"
 //First Dice Function
 function diceNum1() {
     const randomNum = Math.floor(Math.random() * 6) + 1;
@@ -55,3 +55,4 @@ function diceNum2() {
 }
 diceNum1()
 diceNum2()
+
